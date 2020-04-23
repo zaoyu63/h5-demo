@@ -6,6 +6,7 @@ export default new Router({
   routes: [
     {
       path: '/',
+      redirect: '/home',
       component: () => import('./views/Home'),
       children: [
         {
